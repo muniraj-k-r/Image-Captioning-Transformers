@@ -41,22 +41,6 @@ This project demonstrates a deep learning-based image captioning system that gen
 
 ---
 
-## 🧠 Architecture
-
-'''plaintext
-                                        Input Image
-                                             ↓
-                                        Pre-trained CNN (e.g., InceptionV3)
-                                             ↓
-                                        Feature Vector
-                                             ↓
-                                        Transformer Decoder with Attention
-                                             ↓
-                                        Generated Caption (Text)
-
-
----
-
 ## 🔍 How It Works
 
 1. **Image Encoding**: A CNN (e.g., InceptionV3) extracts image features as a dense vector.
@@ -69,10 +53,10 @@ This project demonstrates a deep learning-based image captioning system that gen
 ## 🛠️ Installation
 
 1. Clone the repository:
-``bash
-git clone https://github.com/muniraj-k-r/Image-Captioning-Transformers.git
 
-cd Image-Captioning-Transformers
+- git clone https://github.com/muniraj-k-r/Image-Captioning-Transformers.git
+
+2. cd Image-Captioning-Transformers
 
 ---
 ---
