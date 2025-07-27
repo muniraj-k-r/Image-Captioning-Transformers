@@ -83,7 +83,7 @@ Or if using Jupyter:
 
 jupyter notebook ImageCaptioningTransformer.ipynb
 Make sure the Flickr8k dataset and pre-trained model are available or downloaded as instructed in the code.
----
+
 ---
 ## 📊 Results
 Here are some examples of model-generated captions:
@@ -102,7 +102,7 @@ Here are some examples of model-generated captions:
 3.Enhanced image search engines
 
 4.Real-time captioning in surveillance systems
----
+
 ---
 ## ⚠️ Limitations
 May generate generic or grammatically incorrect captions
@@ -110,7 +110,7 @@ May generate generic or grammatically incorrect captions
 Performance depends on the dataset (e.g., Flickr8k is small)
 
 Requires GPU for faster training and inference
----
+
 ---
 ## 🚀 Future Improvements
 Use larger datasets like MS-COCO for better accuracy
@@ -120,6 +120,7 @@ Deploy using Streamlit or FastAPI as a web app
 Add beam search for improved caption generation
 
 Visualize attention maps for each word
+
 ---
 ## 👨‍💻 Author
 Muniraj K R
