@@ -53,3 +53,65 @@ Feature Vector
 Transformer Decoder with Attention
      ↓
 Generated Caption (Text)
+
+🔍 How It Works
+Image Encoding: A CNN (e.g., InceptionV3) extracts image features as a dense vector.
+
+Attention Mechanism: Focuses on specific parts of the image relevant to each word.
+
+Transformer Decoder: Takes image features + previously generated words to predict the next word.
+
+Output: A complete sentence describing the image.
+
+🛠️ Installation
+Clone the repository:
+
+git clone https://github.com/muniraj-k-r/Image-Captioning-Transformers.git
+cd Image-Captioning-Transformers
+Install required libraries:
+
+pip install -r requirements.txt
+▶️ How to Run
+python main.py
+Or if using Jupyter:
+
+jupyter notebook ImageCaptioningTransformer.ipynb
+Make sure the Flickr8k dataset and pre-trained model are available or downloaded as instructed in the code.
+
+📊 Results
+Here are some examples of model-generated captions:
+
+Generated Caption
+"a dog running in the grass"
+"two children are playing outside"
+
+💡 Use Cases
+Assistive technology for the visually impaired
+
+Automatic image tagging on social media
+
+Enhanced image search engines
+
+Real-time captioning in surveillance systems
+
+
+⚠️ Limitations
+May generate generic or grammatically incorrect captions
+
+Performance depends on the dataset (e.g., Flickr8k is small)
+
+Requires GPU for faster training and inference
+
+🚀 Future Improvements
+Use larger datasets like MS-COCO for better accuracy
+
+Deploy using Streamlit or FastAPI as a web app
+
+Add beam search for improved caption generation
+
+Visualize attention maps for each word
+
+👨‍💻 Author
+Muniraj K R
+🎓 BNM Institute of Technology
+🌐 GitHub: muniraj-k-r
