@@ -114,3 +114,10 @@ Visualize attention maps for each word
 Muniraj K R
 - 🎓 BNM Institute of Technology
 - 🌐 GitHub: muniraj-k-r
+
+## 📦 Download Required Folders 
+
+You can download the required folders (ZIP) from Google Drive:
+
+🔗 [Download  Folder](https://drive.google.com/drive/folders/1RI-yrMCxHK2EM0BVbAeoJhNqOujk9nPg?usp=drive_link)
+
