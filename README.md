@@ -44,15 +44,15 @@ This project demonstrates a deep learning-based image captioning system that gen
 ## 🧠 Architecture
 
 '''plaintext
-Input Image
-     ↓
-Pre-trained CNN (e.g., InceptionV3)
-     ↓
-Feature Vector
-     ↓
-Transformer Decoder with Attention
-     ↓
-Generated Caption (Text)
+                                        Input Image
+                                             ↓
+                                        Pre-trained CNN (e.g., InceptionV3)
+                                             ↓
+                                        Feature Vector
+                                             ↓
+                                        Transformer Decoder with Attention
+                                             ↓
+                                        Generated Caption (Text)
 
 
 ---
@@ -71,18 +71,22 @@ Generated Caption (Text)
 1. Clone the repository:
 ``bash
 git clone https://github.com/muniraj-k-r/Image-Captioning-Transformers.git
+
 cd Image-Captioning-Transformers
+
 ---
 ---
 ## 2.Install required libraries:
 
-pip install -r requirements.txt
-▶️ How to Run
-python main.py
-Or if using Jupyter:
+- pip install -r requirements.txt
 
-jupyter notebook ImageCaptioningTransformer.ipynb
-Make sure the Flickr8k dataset and pre-trained model are available or downloaded as instructed in the code.
+--- 
+## ▶️ How to Run
+- python main.py
+- Or if using Jupyter:
+
+- jupyter notebook ImageCaptioningTransformer.ipynb
+- Make sure the Flickr8k dataset and pre-trained model are available or downloaded as instructed in the code.
 
 ---
 ## 📊 Results
@@ -124,5 +128,5 @@ Visualize attention maps for each word
 ---
 ## 👨‍💻 Author
 Muniraj K R
-🎓 BNM Institute of Technology
-🌐 GitHub: muniraj-k-r
+- 🎓 BNM Institute of Technology
+- 🌐 GitHub: muniraj-k-r
